@@ -6,7 +6,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 
 $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
-$basePath = '/contatos';
+$basePath = '';
 $path = str_starts_with($path, $basePath) ? substr($path, strlen($basePath)) : $path;
 
 $request = explode('/', trim($path, '/'));
