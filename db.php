@@ -1,9 +1,9 @@
 <?php
-$host = 'caboose.proxy.rlwy.net';
-$port = 52709;
-$db = 'railway';
-$user = 'root';
-$pass = 'PZzcvtDjfSLQQpChNyhTllsczQvSdIg';
+$host = 'sql112.infinityfree.com';
+$port = 3306;
+$db = 'if0_39435870_agenda';
+$user = 'if0_39435870';
+$pass = '5Bw39yA44sccUoW';
 
 try {
     $pdo = new PDO("mysql:host=$host;port=$port;dbname=$db;charset=utf8", $user, $pass);
